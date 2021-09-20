@@ -2,6 +2,12 @@ Bem vindos ao sistema SIPE - Sistema de indexação de pastas eletrônicas. Este
 
 A instalação se dá manualmente. Até o momento, não construímos a instalação via docker para ele. A homologação desta instalação se deu em um ambiente Debian 10. Para outros ambientes o desenvolvedor irá precisar adaptar alguns dos passos e dependências utilizadas.
 
+Para as instituições da administração direta e indireta do Poder Executivo do Governo de Minas Gerais que ainda não usam o sistema, favor entrar em contato pelo e-mail sipe@planejamento.mg.gov.br para instruções especifícas.
+
+## Manual online
+
+https://assessoria-t-i-sugesp.gitbook.io/sipe/
+
 ## SMTP
 
 Tanto o cadastro de usuário, quanto a recuperação de senha dependem de disparos de email. O sistema está utilizando o SMTP para realizar o envio de email. Como isso é uma parte central do sistema, o desenvolvedor deve alterar as credenciais utilizadas para um servidor na qual ele tenha controle.
