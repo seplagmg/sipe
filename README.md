@@ -10,7 +10,7 @@ https://assessoria-t-i-sugesp.gitbook.io/sipe/
 
 ## SMTP
 
-Tanto o cadastro de usuário, quanto a recuperação de senha dependem de disparos de email. O sistema está utilizando o SMTP para realizar o envio de email. Como isso é uma parte central do sistema, o desenvolvedor deve alterar as credenciais utilizadas para um servidor na qual ele tenha controle.
+Tanto o cadastro de usuário, quanto a recuperação de senha dependem de disparos de email. O sistema está utilizando o SMTP para realizar o envio de email. Como isso é uma parte central do sistema, o desenvolvedor deve alterar as credenciais utilizadas para um servidor na qual ele tenha controle no arquivo '/application/config/custom.php'.
 
 
 ## Criptografia das senhas no banco
